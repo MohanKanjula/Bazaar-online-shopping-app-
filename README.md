@@ -1,0 +1,2 @@
+# Bazaar-online-shopping-app-
+Classifieds App is an Android application that works online where the user has to register with gmail and has an option to Buy,Sell or Rent the products.Firebase Realtime Database is use for storing the data of the users and the details of the product and Authentication is used for the security of the users. Softwares &amp; Technologies Used: Android Studio &amp; Firebase 

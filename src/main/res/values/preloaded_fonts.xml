@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/audiowide</item>
+        <item>@font/caveat</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/roboto_thin</item>
+        <item>@font/slackey</item>
+        <item>@font/viga</item>
+    </array>
+</resources>

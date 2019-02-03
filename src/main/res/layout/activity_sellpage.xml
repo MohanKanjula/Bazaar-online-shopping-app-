@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sellpage"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="106dp"
+        android:background="@android:color/holo_green_light"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_time" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Enter product name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="1dp"
+        android:ems="10"
+        android:hint="Enter price"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText_desc"
+        app:layout_constraintStart_toStartOf="@+id/editText_name"
+        app:layout_constraintTop_toBottomOf="@+id/editText_name" />
+
+    <EditText
+        android:id="@+id/editText_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="Enter description"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton_rent"
+        app:layout_constraintEnd_toEndOf="@+id/editText_price"
+        app:layout_constraintTop_toBottomOf="@+id/editText_price" />
+
+    <RadioButton
+        android:id="@+id/radioButton_sell"
+        android:layout_width="179dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="1dp"
+        android:text="SELL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/editText_desc"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton_rent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="1dp"
+        android:text="RENT"
+        app:layout_constraintBottom_toTopOf="@+id/editText_time"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton_sell"
+        app:layout_constraintStart_toStartOf="@+id/editText_time"
+        app:layout_constraintTop_toBottomOf="@+id/editText_desc" />
+
+    <EditText
+        android:id="@+id/editText_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Enter time period"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton_rent" />
+</android.support.constraint.ConstraintLayout>

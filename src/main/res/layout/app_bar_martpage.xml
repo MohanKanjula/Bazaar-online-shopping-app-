@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".martpage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_martpage" />
+
+
+
+    <Button
+        android:id="@+id/button_buy"
+        style="@android:style/Animation.InputMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="180dp"
+        android:text="buy" />
+
+    <Button
+        android:id="@+id/button_sell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginRight="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="280dp"
+        android:text="sell" />
+
+    <Button
+        android:id="@+id/button_rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginRight="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="380dp"
+        android:text="rent" />
+
+</android.support.design.widget.CoordinatorLayout>

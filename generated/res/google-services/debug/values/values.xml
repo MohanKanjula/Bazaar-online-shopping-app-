@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">51334943608-qq8fe9qsv5cppeu210ul9516cjp7tlnn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://buysellandrent-ed78c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">51334943608</string>
+    <string name="google_api_key" translatable="false">AIzaSyBQJ3ARK9VVF6a1lRlYUqSytczNWR5namo</string>
+    <string name="google_app_id" translatable="false">1:51334943608:android:eda62801f98ad0a2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBQJ3ARK9VVF6a1lRlYUqSytczNWR5namo</string>
+    <string name="google_storage_bucket" translatable="false">buysellandrent-ed78c.appspot.com</string>
+    <string name="project_id" translatable="false">buysellandrent-ed78c</string>
+</resources>
